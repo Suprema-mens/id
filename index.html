@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html dir="ltr">
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+<style>.ac_footer{position:relative;text-align:center;overflow:hidden;padding:50px 0;color:#A12000}.ac_footer a{color:#A12000}.ac_footer p{text-align:center}img[height="1"],img[width="1"]{display:none!important}</style>
+<style>.cc_widget{position:fixed;top:0;right:-500px;display:none;width:0;z-index:10000;-moz-transition:all 0.5s ease-out;-o-transition:all 0.5s ease-out;-webkit-transition:all 0.5s ease-out;font-family:'Roboto',sans-serif}.cc_widget .clearfix:after,.cc_widget .clearfix:before{display:table;content:''}.cc_widget .clearfix:after{clear:both}.cc_widget *{box-sizing:border-box;margin:0;padding:0}.cc_widget__shipment,.cc_widget__pl,.cc_widget__customer{max-width:500px;min-width:350px;font-weight:500;float:right}.cc_widget b b{font-weight:900}.cc_widget .cc_dtable{display:table}.cc_widget .cc_dtc{display:table-cell;vertical-align:middle}.cc_widget .cc_dtc.vtop{vertical-align:top}.cc_widget .cc_dtc.bot{vertical-align:bottom}.cc_widget__customer.another{background:#2b8dc4;border-color:#2b6f8d}.cc_widget__customer{display:table;background:#5fba4d;border:2px solid #518d46;margin-top:30px;min-width:300px;border-radius:10px 0 0 10px;-moz-border-radius:10px 0 0 10px;-webkit-border-radius:10px 0 0 10px}.cc_widget__customer .cc_dtc{padding:10px;color:#fff;font-size:17px}.cc_widget__customer .cc_dtc:first-child{width:60px;padding-right:0}.cc_widget__customer .cc_dtc:first-child img{max-width:100%}.cc_widget__customer .cc_dtc b{font-size:15px}.cc_widget__customer .cc_dtc text{display:block}.cc_widget__customer .cc_dtc span{color:#1eff00}.cc_widget__customer{display:table;background:#5fba4d;border:2px solid #518d46;margin-top:30px;min-width:300px;border-radius:10px 0 0 10px;-moz-border-radius:10px 0 0 10px;-webkit-border-radius:10px 0 0 10px}.cc_widget__customer .cc_dtc{padding:10px;color:#fff;font-size:17px}.cc_widget__customer .cc_dtc:first-child{width:60px;padding-right:0}.cc_widget__customer .cc_dtc:first-child img{max-width:100%}.cc_widget__customer .cc_dtc b{font-size:15px}.cc_widget__customer .cc_dtc text{display:block}.cc_widget__customer .cc_dtc span{color:#1eff00}</style>
+<style>body,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,p,pre,td,textarea,th,ul{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}abbr,fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:400}ul li{list-style:none}caption,th{text-align:left}h1,h3,h4,h5,h6{font-size:100%;font-weight:400}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,select,textarea{font-family:inherit;font-size:inherit;font-weight:inherit}body,legend{color:#000}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}img{max-width:100%;height:auto}*,:after{box-sizing:border-box}body{font-family:"Montserrat",sans-serif;line-height:1.5}.not_valid_message{position:absolute;top:-36px;left:0;z-index:10000;display:none;margin:3px 0 0;padding:6px 5px 5px;font-size:14px;font-family:Arial;color:#fff;background-color:#e74c3c;border-radius:5px;border:1px dashed #000}.not_valid_message2{position:absolute;top:-6px;left:0;z-index:1000000;display:none;margin:3px 0 0;padding:6px 5px 5px;font-size:14px;font-family:Arial;color:#fff;background-color:#e74c3c;border-radius:5px;border:1px dashed #000}.overflow-x{overflow:hidden}.relative{position:relative}.bold{font-weight:700}.font-900{font-weight:900}.upper{text-transform:uppercase}.fs-0{font-size:0}.main-title{color:#323440;font-size:50px;font-weight:400;margin-bottom:40px}.main-title_footer{font-size:42px}.h1,h2{font-size:60px;font-weight:900;line-height:41px}h2{color:#323440;font-size:36px;line-height:1.2}.h2-hr{margin-bottom:50px}.h2-hr:after,.list__item:before{content:'';position:absolute;left:0}.h2-hr:after{background:#676cb8;bottom:-30px;width:90px;height:2px}.h3{font-size:33px;font-weight:700}.main-title__subtitle{font-weight:900;color:#676cb8}.color-orange{color:#ff5400}body,p{font-size:20px}.font-normal{font-weight:400}.bg-text{border-radius:50px;color:#fff;font-size:37px;padding:0 25px;margin-bottom:10px}.bg-text_black{background-color:#323440}.text-center{text-align:center}.wrapper{max-width:1000px;margin:0 auto;padding-left:10px;padding-right:10px}.row{margin:0 -10px}.d-inline{display:inline-block}.vertical-middle{vertical-align:middle}.vertical-top{vertical-align:top}.col-2,.col-4,.col-6,.col-8{padding:0 10px}.col-2{width:25%}.col-4{width:33.33333333%}.col-6{width:50%}.col-8{width:66.66666667%}.mb-4{margin-bottom:40px}.mt-4{margin-top:40px}.mt-3{margin-top:30px}.slick-slide.slick-loading img,.visible-mob{display:none}.slogan{background:#323440;padding:12px 0}.logo{font-size:30px;font-weight:700;width:300px;color:#fff}.header-text{color:#0ae1ff;font-size:25px;font-weight:300;letter-spacing:6.2px;width:calc(100% - 300px);text-align:right}.list{color:#343c48;font-size:16px;font-weight:700;padding-bottom:30px}.list__item{position:relative;padding-left:40px;margin:0 0 20px}.list__item:before{background:url(images/check.png) no-repeat;width:28px;height:21px;top:50%;margin-top:-11px}.order{background:url(images/form-bg.jpg) no-repeat;background-size:cover;padding:46px;background-position:center}.order_footer,.order_top{margin-top:-112px;position:relative}.order_footer{margin-top:-170px}.order-text{color:#fff;font-weight:400;font-size:36px;position:relative;padding-left:10px}.order-text:before{content:'';position:absolute;height:100%;width:1px;left:0;background:#fff}.price{line-height:1.2}.price_footer{padding-left:40px}.price__old{color:#fff;font-size:31px;font-weight:700;text-decoration:line-through}.price__new{color:#323440;font-size:42px;font-weight:700}.input,.select{width:100%;height:55px;border-radius:4px;background:#fff;border:0;color:#929292;font-size:16px;padding:0 20px}.select{background-image:url(images/select.png);background-repeat:no-repeat;background-position:95% 50%;-webkit-appearance:none;-moz-appearance:none;appearance:none}.timer{display:table;margin:0 auto 20px}.timer_footer{margin-top:50px;display:block}.timer__item{width:74px;height:55px;border-radius:4px;background-color:#fff;margin-right:30px;position:relative}.timer__item:last-child{margin-right:0}.timer__item_counting:before{content:':';position:absolute;color:#2d3663;font-size:36px;font-weight:700;left:-20px;top:50%;margin-top:-22px;line-height:1}.timer__int{color:#2d3663;font-size:34px;font-weight:700;line-height:55px;text-align:center}.btn{border-radius:27px;background:#ff5400;color:#fff;font-size:24px;font-weight:700;line-height:28px;text-transform:uppercase;border:0;width:100%;padding:14px;cursor:pointer;letter-spacing:4.8px}.pulse{animation-name:pulse_animation;animation-duration:5000ms;transform-origin:70% 70%;animation-iteration-count:infinite;animation-timing-function:linear}@keyframes pulse_animation{0%{transform:scale(1)}30%{transform:scale(1)}40%{transform:scale(1.08)}50%{transform:scale(1)}60%{transform:scale(1)}70%{transform:scale(1.05)}80%{transform:scale(1)}100%{transform:scale(1)}}.diagram-wrap{margin-left:calc(100% - 325px)}.diagram{width:303px;margin-top:30px;padding:21px 7px 0}.diagram:after{content:'';position:absolute;width:7px;height:230px;border-radius:4px;border:0 dashed #000;background-color:#dcdcdc;left:0;top:50%;margin-top:-120px}.diagram__groupe{margin-bottom:20px}.diagram-item_after:before,.diagram-item_before:before{content:'';position:absolute;width:8px;height:24px;left:-5px;top:-4px;z-index:2}.diagram-item{color:#fff;font-size:16px;font-weight:700;margin-bottom:10px;padding:0 10px;border-top-right-radius:50px;position:relative;line-height:1.3;z-index:3}.diagram-item_before{background:#323440}.diagram-item_before:before{background:url(images/diagram-item_after.png) no-repeat}.diagram-item_after{background-image:linear-gradient(to right top,#5facba,#5daebb,#5bb0bc,#59b2bc,#57b4bd,#55b5bd,#53b7be,#51b8be,#4fbabe,#4dbcbe,#4bbdbe,#49bfbe)}.diagram-item_after:before{background:url(images/diagram-item_before.png) no-repeat}.diagram-x{color:#323440;font-weight:400;line-height:6.01px;position:relative;padding-top:5px}.diagram-x:after,.diagram-x__item:after{content:'';position:absolute;background:#d0d0d0}.diagram-x:after{left:3px;width:98%;height:1px;bottom:20px}.diagram-x__item{font-size:14px;text-align:right;position:relative}.diagram-x__item:after{width:1px;height:215px;bottom:15px;right:3px}.diagram-x__item span{position:relative;right:-30px}.diagram-legend{margin-top:50px}.diagram-legend__item_after:after,.diagram-legend__item_before:after{content:'';position:absolute;border-radius:50%;width:25px;height:25px;left:0;top:50%;margin-top:-13px}.diagram-legend__item{color:#323440;font-size:16px;font-weight:400;margin-bottom:15px;position:relative;padding-left:30px}.diagram-legend__item_after:after{border:5px solid #4dcdd9}.diagram-legend__item_before:after{border:5px solid #323440}.section-1{background:url(images/section-1.jpg) no-repeat;background-size:cover;padding:60px 0 0}.section-1__left{max-width:620px}.doctor{position:absolute;bottom:0;right:-535px;max-width:initial}.garant{padding-bottom:160px}.garant__img{width:100px}.garant__text{color:#323440;font-size:28px;text-transform:uppercase;font-weight:300;width:calc(100% - 100px);padding-left:20px}.section-1__content{max-width:360px}.product-1{position:absolute;right:-240px;top:50%;margin-top:-180px;z-index:2;width:218px}.garant__big{font-weight:900;font-size:43px}.section-2__wrap,.section-6 .h1{margin-top:100px;position:relative;z-index:2}.section-2__left{max-width:500px}.salah img,.section-2__title{position:relative}.section-2__title:before{content:'';width:100%;position:absolute;height:2px;background:#ff7739;left:-1000px;top:25px}.section-3{margin-top:155px}.molecula{font-size:20px;font-weight:400;position:relative}.molecula:after{width:100%;height:100%;background:url(images/filter.png);left:0;bottom:0}.molecula_1{background:url(images/molecula-1.jpg) no-repeat;background-size:cover}.molecula_2{background:url(images/molecula-2.jpg) no-repeat;background-size:cover}.molecula__text{padding:258px 15px 15px;position:relative;z-index:2}.section-4{margin-top:50px}.salah{position:relative;text-align:center}.molecula:after,.salah:before,.section-6__doctor:before{content:'';position:absolute;background-size:cover}.salah:before{background:url(images/salah-bg.jpg) no-repeat;height:450px;width:1068px;left:-585px;bottom:0}.salah img{z-index:2}.section-4__content{max-width:310px;margin:0 auto}.section-4__content p{margin-bottom:30px}.section-5{margin-top:90px}.section-6{background:#e9eae5;overflow:hidden;margin-top:30px}.section-6 p{line-height:36px}.section-6__content{max-width:430px;position:relative;margin-left:calc(100% - 430px)}.section-6__position{z-index:4}.section-6__doctor{padding:0 0 100px}.section-6__doctor:before{background:url(images/doc.png) no-repeat;width:964px;height:634px;left:-872px;bottom:-55px;-webkit-box-shadow:inset -120px 0 100px -20px #e9eae5,inset 120px 0 100px -20px #e9eae5;-moz-box-shadow:inset -120px 0 100px -20px #e9eae5,inset 120px 0 100px -20px #e9eae5;box-shadow:inset -120px 0 100px -20px #e9eae5,inset 120px 0 100px -20px #e9eae5}.section-6-mobile{background:#e9eae5}.section-7,footer{background-size:cover}.section-7{background:#e9eae5 url(images/review-bg.jpg) -200px center no-repeat;-webkit-background-size:cover;background-size:cover;padding:80px 0}footer{background:url(images/footer.jpg) no-repeat;padding:115px 0 50px;background-size:cover}.footer-text{font-size:36px;line-height:43px;margin-top:70px}.slick-list,.slick-slider{position:relative;display:block}.slick-slider{box-sizing:border-box;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.slick-list{overflow:hidden;margin:0;padding:0}.slick-list:focus{outline:0}.slick-list.dragging{cursor:pointer;cursor:hand}.slick-slider .slick-list,.slick-slider .slick-track{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.slick-track{position:relative;left:0;top:0;display:block;margin-left:auto;margin-right:auto}.slick-track:after,.slick-track:before{content:"";display:table}.slick-track:after{clear:both}.slick-loading .slick-track{visibility:hidden}.slick-slide{float:left;height:100%;min-height:1px;display:none}[dir=rtl] .slick-slide{float:right}.slick-initialized .slick-slide,.slick-slide img{display:block}.slick-slide.dragging img{pointer-events:none}.slick-loading .slick-slide{visibility:hidden}.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}.slick-arrow.slick-hidden{display:none}.slick-loading .slick-list{background:#fff url(images/ajax-loader.gif) center center no-repeat}.slick-next,.slick-prev{position:absolute;display:block;height:20px;width:20px;line-height:0;font-size:0;cursor:pointer;background:0 0;color:transparent;top:50%;-webkit-transform:translate(0,-50%);transform:translate(0,-50%);padding:0;border:0;outline:0}.slick-next:focus,.slick-next:hover,.slick-prev:focus,.slick-prev:hover{outline:0;background:0 0;color:transparent}.slick-next:focus:before,.slick-next:hover:before,.slick-prev:focus:before,.slick-prev:hover:before{opacity:1}.slick-next.slick-disabled:before,.slick-prev.slick-disabled:before{opacity:.25}.slick-prev{left:-25px}[dir=rtl] .slick-prev{left:auto;right:-25px}.slick-prev:before{content:"←"}.slick-next:before,[dir=rtl] .slick-prev:before{content:"→"}.slick-next{right:-25px}[dir=rtl] .slick-next{left:-25px;right:auto}[dir=rtl] .slick-next:before{content:"←"}.slick-dotted.slick-slider{margin-bottom:30px}.slick-dots{position:absolute;bottom:-50px;list-style:none;display:block;text-align:center;padding:0;margin:0;width:100%}.slick-dots li{position:relative;display:inline-block;height:20px;width:20px;margin:0 15px;padding:0;cursor:pointer}.slick-dots li button{background:0 0;display:block;height:20px;width:20px;outline:0;line-height:0;font-size:0;color:transparent;padding:5px;cursor:pointer;border:2px solid #fff;border-radius:50%}.slick-active button{background:#fff!important}.review{max-width:780px;margin:0 auto}.review-item{max-width:400px;padding:0 10px}.user-extra{font-size:0}.user-extra__ava{vertical-align:bottom}.user-extra__info{font-weight:400;color:#d0d0d0;margin-left:10px;width:calc(100% - 70px - 10px);font-size:18px}.user-extra__info b{color:#fff}.ava-img,.user-text{border:1px solid #fff}.ava-img{width:70px;height:70px;border-radius:50%}.user-text{color:#fff;font-weight:400;line-height:26px;border-radius:6px;padding:20px;margin-top:20px;vertical-align:bottom}.user-text,.user-text p{font-size:16px}.user-text__extra{margin-bottom:5px}.quote{color:#fff;font-size:72px;font-weight:400;padding-top:26px;line-height:0;margin-right:10px}@media screen and (max-width: 991px){.main-title{font-size:32px;margin-bottom:10px}.h1{font-size:36px}.h3{font-size:20px}p{font-size:16px}.bg-text,h2{font-size:20px}.wrapper{width:320px}.col-12-mob{width:100%;margin-bottom:10px;}.col-7-mob{width:58.33333333%}.col-5-mob{width:41.66666667%}.mb-4{margin-bottom:20px}.mt-4{margin-top:20px}.hide-mob{display:none}.visible-mob{display:block}.slogan{padding:10px 0}.logo{width:100%;font-size:22px;line-height:33.49px}.header-text{width:100%;font-size:15px;text-align:left;letter-spacing:3px}.list{font-size:14px;padding-bottom:10px}.list__item{padding-left:25px;margin:0 0 10px}.list__item:before{width:17px;height:13px;background-size:cover;margin-top:-7px}.order{padding:16px;margin-top:-45px}.order_footer{padding:20px;margin-top:0}.order-text{font-size:22px;margin-top:10px}.order-text:before{display:none}.price_footer{padding-left:0;margin-top:10px}.price__old{font-size:14px}.price__new{font-size:17px}.timer__item{width:63px;height:46px}.timer__int{line-height:46px;font-size:28px}.btn_footer{margin-top:20px}.btn{font-size:18px;padding:10px}.diagram-wrap{margin-left:0}.diagram-x__item span{right:0}.diagram-legend__item{font-size:14px}.section-1{padding:20px 0 0}.doctor{max-width:295px;right:-65px}.garant{padding-bottom:20px}.garant__img{width:36px}.garant__text{font-size:12px;width:calc(100% - 36px);padding-left:10px}.product-1{position:relative;right:0;margin:-30px 0 0;width:150px;bottom:-25px}.garant__big{font-size:14px}.section-2__wrap{margin-top:65px}.section-3{margin-top:55px}.molecula{font-size:16px}.molecula__text{padding:160px 10px 10px}.section-4{margin-top:55px}.salah{margin-bottom:10px}.salah:before{height:244px;left:-847px}.salah img{max-width:167px}.section-5{margin-top:50px}.section-5__right{margin-top:20px}.section-5__right img{max-width:200px;margin:0 auto;display:table}.section-6{background:0 0}.section-6 p{line-height:inherit}.section-2__wrap,.section-6 .h1{margin-top:50px}.section-6__content{margin-left:0}.section-6__doctor{padding:0 0 50px}.section-6__doctor:before{display:none}.section-6-mobile__img{max-width:375px;margin:20px auto 0;display:table}.section-7{padding:40px 0 60px}footer{padding:25px 0}footer .main-title{font-size:25px}footer .price__old{color:#256c87}.footer-text{font-size:18px;line-height:inherit;margin-top:30px;position:relative;padding-right:165px}.footer-text img{position:absolute;width:172px;top:-60px;right:0}.slick-dots li{margin:0 10px}}@media screen and (max-width: 780px){.wrapper{padding-left:10px;padding-right:10px}}</style>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+<title>Suprema</title>
+
+
+<body>
+<div class="overflow-x">
+<header>
+<div class="slogan">
+<div class="wrapper">
+<div class="fs-0">
+<div class="logo upper d-inline vertical-middle"> Suprema</div>
+<div class="header-text upper d-inline vertical-middle"> PRODUK GENERASI BARU</div>
+</div>
+</div>
+</div>
+</header>
+<main>
+<section class="section-1">
+<div class="wrapper">
+<div class="section-1__left relative">
+<h1 class="main-title"> UNTUK MEMPERBESAR
+						<div class="main-title__subtitle">PENIS</div>
+</h1>
+<div class="section-1__content relative">
+<ul class="list upper">
+<li class="list__item"> EREKSI STABIL</li>
+<li class="list__item"> PENIS 3-5 CM LEBIH PANJANG</li>
+<li class="list__item"> POTENSI SEKSUAL MENINGKAT SIGNIFIKAN</li>
+</ul>
+<div class="garant fs-0 hide-mob">
+<div class="garant__img d-inline vertical-middle">
+<img src="images/medal.png">
+</div>
+<div class="garant__text d-inline vertical-middle">
+								HASIL DIJAMIN DALAM WAKTU <span class="garant__big"> 1 BULAN </span>
+</div>
+</div>
+<img class="product-1" src="images/suprema.png">
+
+</div>
+<img class="doctor" src="images/doctor.png">
+</div>
+</div>
+</section>
+<section class="section-2">
+<div class="wrapper">
+<div class="order order_top">
+<div class="row fs-0">
+<div class="col-4 col-12-mob d-inline vertical-middle">
+<div class="visible-mob">
+<div class="row fs-0">
+<div class="col-4 col-5-mob d-inline vertical-middle">
+<div class="price">
+<div class="price__old">980 000 Rp</div>
+<div class="price__new">490 000 Rp</div>
+</div>
+</div>
+<div class="col-8 col-7-mob d-inline vertical-middle">
+<div class="garant fs-0">
+<div class="garant__img d-inline vertical-middle">
+<img src="images/medal.png">
+</div>
+<div class="garant__text d-inline vertical-middle">
+												HASIL DIJAMIN DALAM WAKTU <span class="garant__big"> 1 BULAN </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="timer">
+<div class="timer__item d-inline">
+<div class="timer__int" id="hours">03</div>
+</div>
+<div class="timer__item timer__item_counting d-inline">
+<div class="timer__int" id="minutes">45</div>
+</div>
+<div class="timer__item timer__item_counting d-inline">
+<div class="timer__int" id="seconds">60</div>
+</div>
+</div>
+<button class="btn toform pulse"><span class="button__text"> PESAN </span></button>
+</div>
+<div class="col-4 col-12-mob d-inline vertical-middle">
+<div class="order-text">
+<span class="bold"> cepat </span> pesan dengan harga spesial
+							</div>
+</div>
+<div class="col-4 d-inline vertical-middle hide-mob">
+<div class="price">
+<div class="price__old">980 000 Rp</div>
+<div class="price__new">490 000 Rp</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section-2__wrap row fs-0">
+<div class="col-6 col-12-mob section-2__left d-inline vertical-top">
+<h2 class="upper mb-4"><span class="color-orange"> Suprema </span> - PEMBESARAN PENIS AMAN PADA USIA
+							BERAPA PUN </h2>
+<p> Penelitian terhadap organ pria yang diperbesar dengan bantuan <b> Suprema </b> mengungkap fakta bahwa
+							pertumbuhannya merupakan proses yang aman dan alami serta serupa dengan pertumbuhan penis selama masa
+							pubertas. Struktur korpora kavernosa tidak mengalami perubahan, dinding pembuluh darah juga tidak berubah
+							bentuk. </p>
+</div>
+<div class="col-6 col-12-mob section-2__right d-inline">
+<div class="diagram-wrap">
+<div class="diagram relative">
+<div class="diagram__groupe">
+<div class="diagram-item diagram-item_before" style="width: 140px;"> 8 cm</div>
+<div class="diagram-item diagram-item_after" style="width: 192px;"> 13 cm</div>
+</div>
+<div class="diagram__groupe">
+<div class="diagram-item diagram-item_before" style="width: 192px;"> 12 cm</div>
+<div class="diagram-item diagram-item_after" style="width: 243px;"> 15,7 cm</div>
+</div>
+<div class="diagram__groupe">
+<div class="diagram-item diagram-item_before" style="width: 243px;"> 18 cm</div>
+<div class="diagram-item diagram-item_after" style="width: 292px;"> 22,4 cm</div>
+</div>
+<div class="diagram-x row fs-0">
+<div class="diagram-x__item col-4 d-inline"><span> 7,5 cm </span></div>
+<div class="diagram-x__item col-4 d-inline"><span> 15 cm </span></div>
+<div class="diagram-x__item col-4 d-inline"><span>  22,5 cm </span></div>
+</div>
+</div>
+<div class="diagram-legend">
+<div class="diagram-legend__item diagram-legend__item_after"> Setelah tiga minggu menggunakan Suprema
+								</div>
+<div class="diagram-legend__item diagram-legend__item_before"> Panjang penis awal</div>
+</div>
+</div>
+</div>
+</div>
+<div class="h3 color-orange mt-4 section-2__title"> Berdasarkan pengujian yang kali lakukan, semakin kecil penis
+					pria sebelum penggunaan Suprema, semakin besar pertumbuhannya saat produk ini memasuki organ reproduksi pria
+					tersebut.
+				</div>
+</div>
+</section>
+<section class="section-3">
+<div class="wrapper">
+<div class="bg-text bg-text_black font-900 d-inline upper"> KOMPONEN-KOMPONEN KUNCI</div>
+<h2 class="h3 color-orange font-normal"><span class="font-900"> Suprema </span> - ASAM SUKSINAT DAN ASAM
+					HIALURONAT </h2>
+<div class="row fs-0 mt-4">
+<div class="col-6 col-12-mob d-inline vertical-top">
+<div class="molecula molecula_1">
+<div class="molecula__text relative">
+<div class="font-900"> ASAM SUKSINAT</div>
+								Sel-sel mulai berfungsi lebih baik sehingga terjadi pemulihan mikrosirkulasi dalam korpora kavernosa
+								penis. Aliran darah yang stabil adalah kebutuhan dasar untuk berbagai proses yang terkait dengan ereksi.
+							</div>
+</div>
+</div>
+<div class="col-6 col-12-mob d-inline vertical-top">
+<div class="molecula molecula_2">
+<div class="molecula__text relative">
+<div class="font-900"> ASAM HIALURONAT</div>
+								Aksi katalitik dihasilkan pada jaringan penis. Dengan mempercepat reaksi kimia antara sel dan berbagai
+								komponen dalam, PDMS memperpanjang dan memperbesar penis hari demi hari, dan di saat yang sama
+								meningkatkan fungsi ereksinya.
+							</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section-4">
+<div class="wrapper">
+<div class="row fs-0">
+<div class="col-6 col-12-mob d-inline vertical-middle">
+<div class="salah">
+<img src="images/salah.png">
+</div>
+</div>
+<div class="col-6 col-12-mob d-inline vertical-middle">
+<div class="section-4__content">
+<h2 class="h2-hr relative"> Obat untuk pria sejati </h2>
+<p> Jadilah lebih kuat dan lebih percaya diri </p>
+<button class="btn toform pulse"><span class="button__text"> PESAN </span></button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section-5">
+<div class="wrapper">
+<div class="row fs-0">
+<div class="col-6 col-12-mob d-inline vertical-top">
+<h2> Penggunaan <span class="color-orange"> Suprema </span> tiap hari menjamin hasil alami dan luar biasa
+							dalam waktu satu bulan </h2>
+<p class="mt-4"> Kombinasi berbagai komponen alami dengan memanfaatkan teknologi tinggi menjadi pembentuk
+							formula unik ini, yang mendorong pertumbuhan sel-sel penis </p>
+</div>
+<div class="col-6 col-12-mob d-inline vertical-top section-5__right">
+<img src="images/suprema.png">
+</div>
+</div>
+</div>
+</section>
+<section class="section-6">
+<div class="wrapper">
+<div class="section-6__content">
+<h2 class="h1 color-orange"> Suprema </h2>
+</div>
+</div>
+<div class="visible-mob">
+<div class="section-6-mobile">
+<img class="section-6-mobile__img" src="images/doc.png">
+</div>
+</div>
+<div class="wrapper">
+<div class="section-6__content section-6__doctor">
+<div class="section-6__position relative">
+<p class="upper mt-3 mb-2"> REKOMENDASI KOMUNITAS DOKTER PROFESIONAL INTERNASIONAL </p>
+<p class="bold"> Bahan baku organik yang mengandung tokoferol aktif melancarkan suplai darah ke penis. Ini
+							membantu mempertahankan ereksi yang stabil dan memicu proses penguatan dalam serat otot secara
+							berkelanjutan. </p>
+</div>
+</div>
+</div>
+</section>
+<section class="section-7">
+<div class="wrapper">
+<div class="review" id="review">
+<div class="review-item">
+<div class="user-extra">
+<div class="user-extra__ava d-inline">
+<img class="ava-img" src="images/ava-1.jpg">
+</div>
+<div class="user-extra__info d-inline"><b> FIRMAN </b> , 32 tahun</div>
+</div>
+<div class="user-text">
+<div class="user-text__extra">
+<div class="quote d-inline vertical-middle"> “</div>
+<div class="d-inline vertical-middle">
+<img class="" src="images/stars.png">
+</div>
+</div>
+<p> Saya sudah mencobanya. Saya pikir apa salahnya, toh takkan membuat keadaan jadi lebih parah juga.
+								Menggunakannya mudah, dan tidak berbau. Produk ini menyerap dengan cepat, saya bahkan lupa kalau saya
+								menggunakannya. Penis saya membesar 4 cm dan ketebalannya bertambah juga, hanya dalam waktu satu bulan
+								penggunaan. </p>
+</div>
+</div>
+<div class="review-item">
+<div class="user-extra">
+<div class="user-extra__ava d-inline">
+<img class="ava-img" src="images/ava-2.jpg">
+</div>
+<div class="user-extra__info d-inline"><b> DENI </b> , 35 tahun</div>
+</div>
+<div class="user-text">
+<div class="user-text__extra">
+<div class="quote d-inline vertical-middle"> “</div>
+<div class="d-inline vertical-middle">
+<img class="" src="images/stars.png">
+</div>
+</div>
+<p> Saya membelinya di Singapura, setelah itu saya kaget ketika tahu bahwa saya juga bisa membelinya di
+								negara kita juga. Ini produk yang bagus - tanpa janji kosong. Burung saya benar-benar tumbuh, perlahan
+								tapi pasti. Saya puas dengan hasilnya, dan akan terus menggunakannya. </p>
+</div>
+</div>
+<div class="review-item">
+<div class="user-extra">
+<div class="user-extra__ava d-inline">
+<img class="ava-img" src="images/ava-3.jpg">
+</div>
+<div class="user-extra__info d-inline"><b> GUNADI </b> , 46 tahun</div>
+</div>
+<div class="user-text">
+<div class="user-text__extra">
+<div class="quote d-inline vertical-middle"> “</div>
+<div class="d-inline vertical-middle">
+<img class="" src="images/stars.png">
+</div>
+</div>
+<p> Seiring bertambahnya usia, kadang kita jadi tak mudah percaya lagi, tapi kadang kita juga jadi tidak
+								terlalu takut untuk mencoba hal baru seperti sebelumnya. Saya beli 3 paket Suprema sekaligus supaya
+								cukup untuk digunakan dalam seluruh rangkaian pengobatan, serta untuk mengecek dan memastikan apakah
+								produk ini benar-benar ampuh atau tidak. TERNYATA MEMANG AMPUH! Burung saya sekarang lebih panjang 5 cm
+								dan lebih tebal juga - setebal lengan istri saya. </p>
+</div>
+</div>
+<div class="review-item">
+<div class="user-extra">
+<div class="user-extra__ava d-inline">
+<img class="ava-img" src="images/ava-4.jpg">
+</div>
+<div class="user-extra__info d-inline"><b> YUDHA </b> , 25 tahun</div>
+</div>
+<div class="user-text">
+<div class="user-text__extra">
+<div class="quote d-inline vertical-middle"> “</div>
+<div class="d-inline vertical-middle">
+<img class="" src="images/stars.png">
+</div>
+</div>
+<p> Saya sudah mencobanya. Saya pikir apa salahnya, toh takkan membuat keadaan jadi lebih parah juga.
+								Menggunakannya mudah, dan tidak berbau. Produk ini menyerap dengan cepat, saya bahkan lupa kalau saya
+								menggunakannya. Penis saya membesar 4 cm dan ketebalannya bertambah juga, hanya dalam waktu satu bulan
+								penggunaan. </p>
+</div>
+</div>
+<div class="review-item">
+<div class="user-extra">
+<div class="user-extra__ava d-inline">
+<img class="ava-img" src="images/ava-5.jpg">
+</div>
+<div class="user-extra__info d-inline"><b> RANDI </b> , 25 tahun</div>
+</div>
+<div class="user-text">
+<div class="user-text__extra">
+<div class="quote d-inline vertical-middle"> “</div>
+<div class="d-inline vertical-middle">
+<img class="" src="images/stars.png">
+</div>
+</div>
+<p> Saya mengambil foto burung saya sebelum menggunakan Suprema dan 4 minggu setelahnya. Hasilnya sudah
+								jelas </p>
+</div>
+</div>
+<div class="review-item">
+<div class="user-extra">
+<div class="user-extra__ava d-inline">
+<img class="ava-img" src="images/ava-6.jpg">
+</div>
+<div class="user-extra__info d-inline"><b> SANDI </b> , 30 tahun</div>
+</div>
+<div class="user-text">
+<div class="user-text__extra">
+<div class="quote d-inline vertical-middle"> “</div>
+<div class="d-inline vertical-middle">
+<img class="" src="images/stars.png">
+</div>
+</div>
+<p> Dulu saya selalu malu dengan ukuran burung saya. Saya merasa tidak nyaman ketika harus memakai celana
+								pendek di tempat umum. Teman saya menyarankan saya untuk mencoba Suprema. Dalam waktu 34 hari penis
+								saya tumbuh 4,3 cm </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section-8">
+<div class="slogan">
+<div class="wrapper">
+<div class="fs-0">
+<div class="logo upper d-inline vertical-middle"> Suprema</div>
+<div class="header-text upper d-inline vertical-middle"> PRODUK GENERASI BARU</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer>
+<div class="wrapper">
+<div class="row fs-0">
+<div class="col-6 col-12-mob d-inline vertical-top">
+<h2 class="main-title main-title_footer upper"> DAPATKAN KENIKMATAN SEJATI DARI SEKS DENGAN
+						<div class="main-title__subtitle"> Suprema</div>
+</h2>
+<div class="footer-text">
+<div class="bold"> cepat</div>
+<div> pesan dengan</div>
+<div> harga spesial</div>
+<div class="visible-mob">
+<div class="price price_footer">
+<div class="price__old">980 000 Rp</div>
+<div class="price__new">490 000 Rp</div>
+</div>
+</div>
+<div class="visible-mob">
+<img src="images/suprema.png">
+</div>
+</div>
+<div class="timer timer_footer">
+<div class="timer__item d-inline">
+<div class="timer__int" id="hours-footer">03</div>
+</div>
+<div class="timer__item timer__item_counting d-inline">
+<div class="timer__int" id="minutes-footer">45</div>
+</div>
+<div class="timer__item timer__item_counting d-inline">
+<div class="timer__int" id="seconds-footer">60</div>
+</div>
+</div>
+</div>
+<div class="col-6 hide-mob d-inline vertical-top text-center">
+<img src="images/suprema.png">
+</div>
+</div>
+<div class="order order_footer">
+<div class="row fs-0">
+<div class="col-8 col-12-mob d-inline vertical-middle">
+
+<form action="../send.php" id="order_form" method="post" onsubmit="validateform(this); return false;">
+
+<div class="row">
+
+<div class="d-inline col-6 col-12-mob vertical-middle mb-2">
+<input class="input" name="name" placeholder="NAMA/NAMA BELAKANG" type="text">
+</div>
+<div class="d-inline col-6 col-12-mob vertical-middle">
+<input class="only_number input" maxlength="13" name="phone" placeholder="NOMOR TELEPON" type="text">
+</div>
+<div class="d-inline col-6 col-12-mob vertical-middle">
+<button class="js_submit btn btn_footer pulse button__text" style="margin-top:15px;"><span class="button__text">PESAN</span></button>
+</div>
+</div>
+</form>
+
+</div>
+<div class="col-4 hide-mob d-inline vertical-middle">
+<div class="price price_footer">
+<div class="price__old">980 000 Rp</div>
+<div class="price__new">490 000 Rp</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<script src="js/slick.js"></script>
+<script src="js/app.js"></script>
+<div class="ac_footer"><span>2020 Copyright. All rights reserved.</span><br>
+    <a href="../policy_en.php" target="_blank">Privacy policy</a>
+</div>
+
+<script>
+    function validateform(form) {
+        if (form.elements["name"].value == "") {
+            alert("Silahkan masukkan nama lengkap anda");
+            return false;
+        }
+        if (form.elements["name"].value.length < 2) {
+            alert("Silahkan masukkan nama lengkap anda");
+            return false;
+        }
+        var phone_reg = new RegExp("[A-z А-я]", "g");
+        var literInPhone = phone_reg.test(form.elements["phone"].value);
+        if (form.elements["phone"].value == "") {
+            alert("Silahkan, masukkan nomor telepon anda");
+            return false;
+        }
+        if (literInPhone) {
+            alert("Silahkan, masukkan nomor telepon anda");
+            return false;
+        }
+        if (form.elements["phone"].value.length > 17) {
+            alert("Silahkan, masukkan nomor telepon anda");
+            return false;
+        }
+
+        form.querySelector(".btn").setAttribute("disabled", true);
+        form.submit();
+    }
+</script>
+</body>
+</html>
